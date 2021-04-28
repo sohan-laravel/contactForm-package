@@ -1,0 +1,18 @@
+{
+    "name": "Sohan/contactForm",
+    "description": "This will send data to admin and save data query in database.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sohanIslam",
+            "email": "zohirulislam1416@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sohan\\contactForm\\": "src/"
+        }
+    }
+}
