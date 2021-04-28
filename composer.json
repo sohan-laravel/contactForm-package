@@ -1,5 +1,5 @@
 {
-    "name": "Sohan/contactForm",
+    "name": "sohan/contact-form",
     "description": "This will send data to admin and save data query in database.",
     "license": "MIT",
     "authors": [

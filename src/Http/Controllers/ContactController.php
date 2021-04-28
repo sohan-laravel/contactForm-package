@@ -35,11 +35,11 @@ class ContactController extends Controller
         $contact->save();
 
         // Toastr::success('Messages in here', 'Title', ["positionClass" => "toast-top-center"]);
-        alert()->success('Title', 'Lorem Lorem Lorem');
+        // alert()->success('Title', 'Lorem Lorem Lorem');
 
-        Alert::success('Success Title', 'Service has been updated successfully');
+        // Alert::success('Success Title', 'Service has been updated successfully');
 
-        session()->flash('message', 'This is a message!');
+        // session()->flash('message', 'This is a message!');
         //return redirect('/contact')->with('success', 'Item created successfully!');
         return back();
     }
