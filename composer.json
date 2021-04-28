@@ -14,5 +14,12 @@
         "psr-4": {
             "Sohan\\contactForm\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sohan\\contactForm\\ContactServiceProvider"
+            ]
+        }
+    },
 }
